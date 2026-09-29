@@ -2,12 +2,17 @@ import numpy as np
 import cv2 as cv
 import sys
 
+e1 = cv.getTickCount()
+
 img = cv.imread("learning/StarryNight.jpeg")
 if img is None:
     sys.exit("Could not read the image.")
 
-px = img[100,100]
-print(px) # outputs RGB values 
+e2 = cv.getTickCount()
+time = (e2 - e1)/ cv.getTickFrequency()
+print(time) # time taken to read the image is 0.0066s
+
+px = img[100,100] 
 
 # experiment: try to make every other pixel white 
 for x in range(0,160,2): # x = height 
