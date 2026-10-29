@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np 
-import pandas as pd
 
 x = np.array([1,2,3,5]) # default: 0, 1, 2, ... 
 y = np.array([2,4,3,9]) # or just: y=[2,4,3,9] 
