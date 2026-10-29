@@ -2,6 +2,9 @@
 2026/9/28 Colorspace + image transformation  
 
 2026/10/25-2026/11/ Matplotlib Crash Course by freeCodeCamp.org 
+     10/25 Line graph
+     10/29 Bar chart + working with real life data (scatter plot & pie chart)
+     
 
 Content I skipped: 
 - playing video file
